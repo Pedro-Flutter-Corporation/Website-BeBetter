@@ -1,0 +1,238 @@
+
+ @import url('https://fonts.cdnfonts.com/css/breathing-personal-use');
+
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior:smooth;
+}          
+
+nav{
+    width: 100%;
+    height: 100px;
+    align-items: center;
+    background-color: white;
+    justify-content: space-around;
+    display: flex;
+}
+
+nav a{
+    width: 100px;
+    color: #d8ae5e;
+    text-align: center;
+    font-size: 25px;  
+}
+
+
+nav a:hover{
+    height: 45px;
+    background-color: #d8ae5e;
+    width: 100px;
+    display: flex;
+    text-align: center;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    transition: 1s;
+}
+
+.texto{
+    margin: 50px 20px 0 20px; 
+    height: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+
+
+.linha{
+    background-color: #d8ae5e;
+    width: 100%;
+    height: 1px;
+}
+
+.tela1{
+    background-image:url(logo2.png);
+    background-repeat: no-repeat ;
+    height: 580px;
+    width: 709px;
+    margin-left: 30%;
+    margin-top: 5%;
+    
+}
+
+
+
+/*inicio da pagina 2*/
+.pagina2{
+    width: auto;
+}
+
+.quadrado{
+    display: flex;
+    margin: 0 auto;
+    background-color:#d8ae5e;
+    width: 70%;
+    height: 500px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+.quadrado p{
+    font-size: 25px;
+    margin: 100px 10px 10px 30px;
+    color:white;
+    display: flex;
+
+}
+
+.quadrado img{
+    margin-left: 100px;
+    margin-top: 30px;
+    height: 400px;
+    width: 400px;
+}
+
+
+.bemvindo {
+    text-align: center;
+    font-size: 100px;
+    margin-top: 10px;
+    color: #d8ae5e;
+}
+
+.linha2{
+    background-color: #d8ae5e;
+    width: 100%;
+    height: 1px;
+   }
+
+/*inicio da pagina 3*/
+.pagina3{
+    margin-top: 170px;
+    height: 700px;
+    width: auto;
+    background-color:#d8ae5e;
+}
+
+.pagina3 h1{
+    text-align: center;
+    font-size: 30px;
+    padding-top: 40px;
+    color: white;
+    font-size: 50px;
+}
+
+
+.quadrado2{
+    display: flex;
+    margin: 0 auto;
+    background-color:white;
+    width: 70%;
+    height: 500px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+.quadrado2 p{
+    font-size: 25px;
+    margin: 100px 10px 10px 30px;
+    color:#d8ae5e;
+    display: flex;
+}
+
+.quadrado2 img{
+    margin-left: 50px;
+}
+
+.linha3{
+    background-color: #d8ae5e;
+    width: 100%;
+    height: 1px;
+   }
+
+.squad{
+    text-align: center;
+    font-size: 30px;
+    padding-top: 40px;
+    color: #d8ae5e;
+    font-size: 50px;
+}
+
+
+
+.pagina4{
+    height: 450px;
+    width: auto;
+    background-color: white;
+    margin-top: 150px;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-around;
+}
+
+.ana, .luana, .moita, .eu {
+    background-color: #d8ae5e;
+    width: 300px;
+    height: 300px;
+    border-radius: 20px 0 20px 0;
+}
+
+.ana p, .luana p, .moita p, .eu p{
+    display: flex;
+    justify-content: center;
+    margin-top:40px;
+    
+} 
+
+.ana a, .luana a, .moita a, .eu a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+} 
+
+.ana img, .luana img, .moita img, .eu img{
+    display: flex;
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    margin-top: 45px;
+    margin-left: 75px;
+} 
+
+a{
+    text-decoration:underline;
+    color: black;
+}
+
+html ::-webkit-scrollbar {
+    width: 10px;
+  }
+  html ::-webkit-scrollbar-thumb {
+    background:#d8ae5e;
+  }
+  
+  footer{
+    background-color: #d8ae5e;
+    color: white;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .bot{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;  
+    padding: 15px 25px;
+    font-size: 20px;
+    background-color:#d8ae5e;
+    border:none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
